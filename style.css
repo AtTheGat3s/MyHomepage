@@ -8,6 +8,25 @@ html, body {
   color: #d5d5d5;
 }
 
+.navbar-brand {
+  font-size: 1.5vw;
+}
+
+.col-lg-6 h1 {
+  padding: 5vw 3vw 0vw 3vw;
+  font-size: 2vw;
+}
+
+.col-lg-6 p {
+  padding: 1vw 3vw 0vw 3vw;
+  font-size: 1.2vw;
+}
+
+.col-lg-6 img {
+  border-width: 1rem;
+  border-color: #d5d5d5;
+}
+
 .navbar {
  padding: .8rem;
  background-color: rgb(24, 24, 24);
@@ -26,70 +45,16 @@ html, body {
 }
 
 .card {
-  margin-top: 40px;
+  margin-top: 2vw;
+  width: 25vw;
   background-color: black;
   border-color: white;
-  width: 24vw;
-}
-
-
-.carousel-inner img {
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.carousel-caption h1 {
-  font-size: 500%;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 10px #000;
-}
-
-.carousel-caption h3 {
-  font-size: 200%;
-  font-weight: 500;
-  text-shadow: 1px 1px 10px #000;
-  padding-bottom: 1rem;
-}
-
-.btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
-}
-
-.btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #6648b1;
-}
-
-.jumbotron {
-  padding: 1rem;
-  border-radius: 0;
-
 }
 
 .padding {
   padding-bottom: 2rem;
 }
 
-.welcome {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 2rem;
-  
-}
-
-.welcome hr {
-  border-top: 2px solid #b4b4b4;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
-}
 
 .fa-code {
   color: #e54d26;
@@ -118,15 +83,6 @@ html, body {
 .fa-code, .fa-bold, .fa-css3, .fa-java, .fa-js, .fa-r-project {
   font-size: 4em;
   margin: 1rem;
-}
-
-.fun {
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-.gif {
-  max-width: 100%;
 }
 
 .social a {
@@ -164,26 +120,27 @@ html, body {
 
 footer {
   color: #d5d5d5;
-  padding-top: 2rem;
 }
 
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
-  margin-top: .8rem;
-  margin-bottom: 1rem;
-}
-
-footer a {
-  color: #d5d5d5
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 hr.light-100 {
   border-top: 1px solid #d5d5d5;
   width: 100%;
-  margin-top: .8rem;
-  margin-bottom: 1rem; 
+  margin-top: 0rem;
+  margin-bottom: 0rem; 
 }
+
+footer h5 {
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -191,77 +148,69 @@ hr.light-100 {
     font-size: 4em;
     padding: 2rem;
   }
+
+  .navbar-brand {
+    font-size: 2vw;
   }
+
+  .col-lg-6 h1 {
+    padding: 2vw 3vw 1vw 3vw;
+    font-size: 3.5vw;
+  }
+  
+  .col-lg-6 p {
+    padding: 1vw 3vw 0vw 3vw;
+    font-size: 2vw;
+  }
+}
 @media (max-width: 768px) {
-  .carousel-caption {
-    top: 45%;
-  }
-  
-  .carousel-caption h1 {
-    font-size: 350%;
-  }
-  
-  .carousel-caption h3 {
-    font-size: 140%;
-    font-weight: 400;
-    padding-bottom: .2rem;
-  }
-
-  .carousel-caption .btn {
-    font-size: 95%;
-    padding: 8px 14px;
-  }
-
-  .display-4 {
-    font-size: 200%;
-  }
 
   .social a {
     font-size: 2.5em;
     padding: 1.2rem;
   }
+
+  .navbar-brand {
+    font-size: 3vw;
+  }
+
+  .col-lg-6 h1 {
+    padding: 2vw 3vw 1vw 3vw;
+    font-size: 5vw;
+  }
+  
+  .col-lg-6 p {
+    padding: 1vw 3vw 0vw 3vw;
+    font-size: 3vw;
+  }
 }
 @media (max-width: 576px) {
-  .carousel-caption {
-    top: 40%;
-  }
-  
-  .carousel-caption h1 {
-    font-size: 250%;
-  }
-  
-  .carousel-caption h3 {
-    font-size: 110%;
-  }
-
-  .carousel-caption .btn {
-    font-size: 90%;
-    padding: 4px 8px;
-  }
-
-  .carousel-indicators {
-    display: none;
-  }
-
-  .display-4 {
-    font-size: 160%;
-  }
 
   .social a {
     font-size: 2em;
     padding: .7rem;
   }
+
+  .navbar-brand {
+    font-size: 4vw;
+  }
+
+  .col-lg-6 h1 {
+    padding: 2vw 3vw 1vw 3vw;
+    font-size: 8vw;
+  }
+  
+  .col-lg-6 p {
+    padding: 1vw 3vw 0vw 3vw;
+    font-size: 4vw;
+  }
+
+  .card {
+    width: 75vw;
+  }
 }
 
 
-/*---Firefox Bug Fix --*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
@@ -293,11 +242,8 @@ figure {
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-    padding: 1rem;
+    padding: 0rem 0rem;
 }
-
-
-
 
 
 /*
