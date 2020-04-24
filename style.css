@@ -80,7 +80,11 @@ html, body {
   color: #165caa;
 }
 
-.fa-code, .fa-bold, .fa-css3, .fa-java, .fa-js, .fa-r-project {
+.fa-copyright {
+  color: #02759e;
+}
+
+.fa-code, .fa-bold, .fa-css3, .fa-java, .fa-js, .fa-r-project, .fa-copyright, .fa-calculator {
   font-size: 4em;
   margin: 1rem;
 }
@@ -90,36 +94,27 @@ html, body {
   padding: 3rem;
 }
 
-.fa-facebook {
-  color: #3b5998;
+.fa-github {
+  color: #ffffff;
 }
 
-.fa-twitter {
-  color: #00aced;
+.fa-xing {
+  color: #026466;
 }
 
-.fa-google-plus-g {
-  color: #dd4b39;
+.fa-linkedin {
+  color: #2867b2;
 }
 
-.fa-instagram {
-  color: #517fa4;
+.fa-free-code-camp {
+  color: #ffffff;
 }
 
-.fa-youtube {
-  color: #bb0000;
-}
-
-.fa-facebook:hover, 
-.fa-twitter:hover, 
-.fa-google-plus-g:hover, 
-.fa-instagram:hover, 
-.fa-youtube:hover {
-  color: #d5d5d5;
-}
-
-footer {
-  color: #d5d5d5;
+.fa-github:hover, 
+.fa-free-code-camp:hover, 
+.fa-xing:hover, 
+.fa-linkedin:hover {
+  color: #a8a8a8;
 }
 
 hr.light {
