@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+
+
 html, body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(24, 24, 24);
+  background: url("img/black.jpg");
+  background-position: 0% -30%;
   color: #d5d5d5;
 }
+
+
 
 .navbar-brand {
   font-size: 1.5vw;
@@ -29,7 +34,7 @@ html, body {
 
 .navbar {
  padding: .8rem;
- background-color: rgb(24, 24, 24);
+ background: url("img/black.jpg");
 }
 
 .navbar-nav li {
@@ -41,11 +46,26 @@ html, body {
 }
 
 .card {
-  margin-top: 2vw;
-  width: 25vw;
-  background-color: black;
-  border-color: white;
+  color: black;
+  text-align: center;
+  background-color: #d5d5d5;
+  border-color: black;
+  box-shadow: inset 0 0 10px #000000;
 }
+
+.card-text {
+  text-align: justify;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.card-btn{
+  color: #d5d5d5;
+  background-color: black;
+  border-color: black;
+}
+
+
 
 .padding {
   padding-bottom: 2rem;
@@ -133,6 +153,7 @@ footer h5 {
 }
 
 
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
@@ -174,6 +195,7 @@ footer h5 {
     padding: 1vw 3vw 0vw 3vw;
     font-size: 3vw;
   }
+
 }
 @media (max-width: 576px) {
 
@@ -195,10 +217,6 @@ footer h5 {
     padding: 1vw 3vw 0vw 3vw;
     font-size: 4vw;
   }
-
-  .card {
-    width: 75vw;
-  }
 }
 
 
@@ -210,7 +228,7 @@ figure {
   margin: 0!important;
 }
 .fixed-wrap {
-  clip: rect(0, auto, auto, 0);
+  clip: rect(0 , auto, auto, 0);
   position: absolute;
   top: 0;
   left: 0;
@@ -218,7 +236,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/lake.jpg');
+  background-image: url('img/island.jpg');
   position: fixed;
   display: block;
   top: 0;
@@ -226,7 +244,6 @@ figure {
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center center;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
