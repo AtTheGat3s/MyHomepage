@@ -20,11 +20,21 @@ html, body {
 .col-lg-6 h1 {
   padding: 5vw 3vw 0vw 3vw;
   font-size: 2vw;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .col-lg-6 p {
   padding: 1vw 3vw 0vw 3vw;
   font-size: 1.2vw;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .col-lg-6 img {
@@ -32,9 +42,22 @@ html, body {
   border-color: #d5d5d5;
 }
 
+#skills {
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
 .navbar {
  padding: .8rem;
  background: url("img/black.jpg");
+ text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .navbar-nav li {
