@@ -6,12 +6,14 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  background: url("img/black.jpg");
+  background-color: rgb(34, 34, 34);
   background-position: 0% -30%;
-  color: #d5d5d5;
+  color: #ececec;
 }
 
-
+.card-deck {
+  padding: 1vw 5vw 1vw 5vw;
+}
 
 .navbar-brand {
   font-size: 1.5vw;
@@ -20,44 +22,18 @@ html, body {
 .col-lg-6 h1 {
   padding: 5vw 3vw 0vw 3vw;
   font-size: 2vw;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
 }
 
-.col-lg-6 p {
-  padding: 1vw 3vw 0vw 3vw;
-  font-size: 1.2vw;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-}
-
-.col-lg-6 img {
-  border-width: 1rem;
-  border-color: #d5d5d5;
-}
-
-#skills {
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+#about-text {
+  padding: 3vw 6vw 0vw 6vw;
+  background-color: #ececec;
+  color: rgb(34, 34, 34);
+  font-size: 1vw;
 }
 
 .navbar {
  padding: .8rem;
- background: url("img/black.jpg");
- text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+ background-color: rgb(34, 34, 34);
 }
 
 .navbar-nav li {
@@ -70,48 +46,13 @@ html, body {
 
 .card {
   color: black;
+  padding: 0vw 2vw 0vw 2vw;
   text-align: center;
-  background-color: #f2eecb;
   border-color: black;
+  background-color: #ececec;
   box-shadow: inset 0 0 1px #000000;
 }
 
-.paper {
-  background: #fff;
-  padding: 30px;
-  position: relative;
-}
-
-.paper,
-.paper::before,
-.paper::after {
-  /* Styles to distinguish sheets from one another */
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
-  border: 1px solid #bbb;
-}
-
-.paper::before,
-.paper::after {
-  content: "";
-  position: absolute;
-  height: 95%;
-  width: 99%;
-  background-color: #f2eecb;
-}
-
-.paper::before {
-  right: 15px;
-  top: 0;
-  transform: rotate(-1deg);
-  z-index: -1;
-}
-
-.paper::after {
-  top: 5px;
-  right: -5px;
-  transform: rotate(1deg);
-  z-index: -2;
-}
 
 .card-text {
   text-align: justify;
@@ -120,11 +61,10 @@ html, body {
 }
 
 .card-btn{
-  color: #d5d5d5;
-  background-color: black;
-  border-color: black;
+  color: #ececec;
+  background-color: #32758a;
+  
 }
-
 
 
 .padding {
@@ -171,7 +111,7 @@ html, body {
 }
 
 .fa-github {
-  color: #ffffff;
+  color: #ececec;
 }
 
 .fa-xing {
@@ -183,7 +123,7 @@ html, body {
 }
 
 .fa-free-code-camp {
-  color: #ffffff;
+  color: #ececec;
 }
 
 .fa-github:hover, 
@@ -194,21 +134,21 @@ html, body {
 }
 
 hr.light {
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #32758a;
   width: 75%;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 hr.light-100 {
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #32758a;
   width: 100%;
   margin-top: 0rem;
   margin-bottom: 0rem; 
 }
 
 footer h5 {
-  color: #d5d5d5;
+  color: #ececec;
   padding-top: 2rem;
 }
 
@@ -225,12 +165,12 @@ footer h5 {
     font-size: 2vw;
   }
 
-  .col-lg-6 h1 {
+  .col-lg-8 h1 {
     padding: 2vw 3vw 1vw 3vw;
     font-size: 3.5vw;
   }
   
-  .col-lg-6 p {
+  .col-lg-8 p {
     padding: 1vw 3vw 0vw 3vw;
     font-size: 2vw;
   }
@@ -246,12 +186,12 @@ footer h5 {
     font-size: 3vw;
   }
 
-  .col-lg-6 h1 {
+  .col-lg-8 h1 {
     padding: 2vw 3vw 1vw 3vw;
     font-size: 5vw;
   }
   
-  .col-lg-6 p {
+  .col-lg-8 p {
     padding: 1vw 3vw 0vw 3vw;
     font-size: 3vw;
   }
@@ -268,12 +208,12 @@ footer h5 {
     font-size: 4vw;
   }
 
-  .col-lg-6 h1 {
+  .col-lg-8 h1 {
     padding: 2vw 3vw 1vw 3vw;
     font-size: 8vw;
   }
   
-  .col-lg-6 p {
+  .col-lg-8 p {
     padding: 1vw 3vw 0vw 3vw;
     font-size: 4vw;
   }
